@@ -50,12 +50,6 @@
 
 ![GEO Visibility Lab 英文回答记录桌面界面](assets/screenshots/dashboard-answers-en.jpg)
 
-### 加入交流
-
-扫描下方二维码加入 GEO 开源交流群，交流模型接入、监控口径和部署经验。当前二维码预计在 **2026-09-28 前有效**；到期后维护者只需替换同路径文件，README 与在线页面地址不变。
-
-<p align="center"><a href="assets/community-wechat.jpg"><img src="assets/community-wechat.jpg" width="360" alt="GEO 开源交流群微信群二维码，当前预计 2026-09-28 前有效"></a></p>
-
 ### 当前六模型成本参考
 
 以恒利原当前示例配置为参考：**6 个模型 × 5 个问题 × 每周 1 次**，每批约产生 30 次模型调用和 30 次联网搜索调用，按月均 4.33 周计算为约 130 次模型调用与 130 次搜索调用。
@@ -185,10 +179,6 @@ GEO Visibility Lab is a self-hosted, evidence-bounded monitor for brand visibili
 The project was developed through website GEO work by **[Guilin Hengliyuan Biotech Co., Ltd.](https://heng-li-yuan.com/)**（**桂林恒利原生物科技有限公司**）and open-sourced as a reusable brand-monitoring tool. Apache-2.0 covers the code; project identity and company trademarks are not automatically licensed with the code. See [TRADEMARKS.md](TRADEMARKS.md).
 
 Three landscape desktop screenshots are included in the [Interface gallery](#软件界面--interface). All screenshots use fictional demo data.
-
-### Community
-
-Scan the QR code in the [Chinese section](#加入交流) to join the WeChat community for integration, monitoring-methodology and deployment discussions. The current code is expected to remain valid through **2026-09-28** and can later be replaced at the same asset path without changing the public page URL.
 
 ### Six-model cost example
 

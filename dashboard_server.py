@@ -142,14 +142,6 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
             return
-        if request_path == "/assets/community-wechat.jpg":
-            body = (ROOT / "assets" / "community-wechat.jpg").read_bytes()
-            self.send_response(200)
-            self.send_header("Content-Type", "image/jpeg")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-            return
         if request_path == "/PROVIDERS.md":
             body = (ROOT / "PROVIDERS.md").read_bytes()
             self.send_response(200)

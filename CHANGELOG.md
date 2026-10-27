@@ -2,6 +2,12 @@
 
 All notable changes to GEO Visibility Lab are documented here.
 
+## Unreleased
+
+### Removed
+
+- Retired the expired WeChat group QR code and its Chinese/English community invitation from the README and demo; the Pages deployment no longer includes the image.
+
 ## [0.1.1] - 2026-09-24
 
 ### Changed
